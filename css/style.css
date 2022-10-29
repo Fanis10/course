@@ -481,6 +481,8 @@ li {
   opacity: 0.5;
 }
 .results .swiper-slide-active {
+  position: relative;
+  z-index: 10;
   height: 443px;
 }
 .results .swiper-slide-active a {
@@ -774,8 +776,6 @@ li {
   .results .swiper-slide a {
     width: 217px;
     height: 217px;
-    background: unset;
-    opacity: 1;
   }
   .results .swiper-slide-active {
     height: 323px;

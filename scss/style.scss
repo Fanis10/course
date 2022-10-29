@@ -369,6 +369,8 @@
             opacity: 0.5;
         }
         &-active {
+            position: relative;
+            z-index: 10;
             height: 443px;
             a {
                 position: absolute;
@@ -671,8 +673,6 @@
             a {
                 width: 217px;
                 height: 217px;
-                background: unset;
-                opacity: 1;
             }
             &-active {
                 height: 323px;
