@@ -774,6 +774,8 @@ li {
   .results .swiper-slide a {
     width: 217px;
     height: 217px;
+    background: unset;
+    opacity: 1;
   }
   .results .swiper-slide-active {
     height: 323px;
