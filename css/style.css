@@ -481,13 +481,11 @@ li {
   opacity: 0.5;
 }
 .results .swiper-slide-active {
-  position: relative;
-  z-index: 10;
   height: 443px;
+  z-index: 5;
 }
 .results .swiper-slide-active a {
   position: absolute;
-  z-index: 5;
   top: 50%;
   left: 50%;
   width: 443px;
@@ -495,6 +493,10 @@ li {
   transform: translate(-50%, -50%);
   background: unset;
   opacity: 1;
+}
+.results .swiper-slide-active img {
+  position: relative;
+  z-index: 2;
 }
 .results .swiper-slide img {
   width: 100%;

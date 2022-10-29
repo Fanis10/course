@@ -369,12 +369,10 @@
             opacity: 0.5;
         }
         &-active {
-            position: relative;
-            z-index: 10;
             height: 443px;
+            z-index: 5;
             a {
                 position: absolute;
-                z-index: 5;
                 top: 50%;
                 left: 50%;
                 width: 443px;
@@ -382,6 +380,10 @@
                 transform: translate(-50%, -50%);
                 background: unset;
                 opacity: 1;
+            }
+            img {
+                position: relative;
+                z-index: 2;
             }
         }
         img {
