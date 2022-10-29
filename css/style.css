@@ -472,7 +472,6 @@ li {
 }
 .results .swiper-slide a {
   position: absolute;
-  z-index: 4;
   top: 50%;
   left: 50%;
   width: 361px;
