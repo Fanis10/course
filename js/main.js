@@ -37,4 +37,16 @@ $(document).ready(function() {
         })
     })
 
+    var header = $(".header");
+    var scrollChange = 1;
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= scrollChange) {
+            header.addClass("bg-white");
+        } else {
+            header.removeClass("bg-white");
+        }
+    });
+
 })
