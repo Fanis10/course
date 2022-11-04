@@ -5,6 +5,9 @@
     position: relative;
     z-index: 4;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
     &__list {
         display: flex;
         justify-content: end;
@@ -65,7 +68,6 @@
     background-size: cover;
     position: relative;
     z-index: 3;
-    margin-top: -120px;
     &__inner {
         display: flex;
         align-items: center;
@@ -246,6 +248,7 @@
             font-size: 30px;
             color: #BDBDBD;
             margin-right: 13px;
+            text-decoration-line: line-through;
         }
     }
     &__bottom {
@@ -411,6 +414,7 @@
         box-shadow: 0px 10px 15px rgba(242, 177, 60, 0.5);
         border-radius: 50%;
         left: -20px;
+        z-index: 1;
         &::after {
             color: #FFFFFF;
         }
@@ -422,6 +426,7 @@
         box-shadow: 0px 10px 15px rgba(242, 177, 60, 0.5);
         border-radius: 50%;
         right: -20px;
+        z-index: 1;
         &::after {
             color: #FFFFFF;
         }
@@ -593,7 +598,6 @@
 
 @media screen and (max-width: 768px) {
     .anticellulite {
-        margin-top: -90px;
         &__inner {
             align-items: unset;
             padding-top: 90px;
