@@ -158,16 +158,11 @@
         margin-top: 20px;
         width: calc((100% / 3) - 20px);
         margin-right: 20px;
+        transition: all 0.3s;
         &--active {
-            border: none;
+            border-color: linear-gradient(180deg, #FFD54F 0%, #F0A83E 58.33%, #EC9642 100%);
             background: linear-gradient(180deg, #FFD54F 0%, #F0A83E 58.33%, #EC9642 100%);
-            .advantages__item-icon {
-                svg {
-                    path {
-                        fill: #FFFFFF;
-                    }
-                }
-            }
+            .advantages__item-icon {}
             .advantages__item-text {
                 color: #FFFFFF;
             }
