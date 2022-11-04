@@ -110,8 +110,12 @@
         line-height: 36px;
         color: #FFFFFF;
         margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         &:hover {
-            background: #F2B13C;
+            box-shadow: 0px 10px 15px rgba(242, 177, 60, 0.9);
+            color: #FFFFFF;
         }
     }
     &__img {
@@ -260,7 +264,8 @@
         box-shadow: 0px 10px 15px rgba(242, 177, 60, 0.5);
         border-radius: 50px;
         &:hover {
-            background: #F2B13C;
+            box-shadow: 0px 10px 15px rgba(242, 177, 60, 0.9);
+            color: #FFFFFF;
         }
     }
 }
